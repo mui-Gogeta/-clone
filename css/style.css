@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  /* color: #fff; */
+  line-height: 1.5;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 930px;
+  margin: auto;
+}
+
+.navbar {
+  height: 100px;
+}
+
+.navbar .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_components {
+  display: flex;
+}
+
+.nav_components li {
+  margin: 0 15px;
+}
+
+.language-selector {
+  border: 1px solid #000;
+  padding: 5px 10px;
+}
+
+.sign-in {
+  background: #00ff9b;
+  border: none;
+  color: #333;
+  font-size: medium;
+  padding: 10px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  margin: 5em 10rem;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-upper-text {
+  font-size: 40px;
+}
+
+.hero-sub-text {
+  font-size: 25px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.hero-membership {
+  font-size: 16px;
+  margin-right: 2rem;
+  font-weight: lighter;
+}
+
+.email-input {
+  padding: 1rem 0.4rem;
+  margin-left: -3rem;
+  padding-right: 16rem;
+  font-size: large;
+}
+
+.get-started {
+  background: #00ff9b;
+  border: none;
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  color: #333;
+  font-size: large;
+  margin-left: -0.3rem;
+  cursor: pointer;
+}
+
+.platforms {
+  height: 400px;
+  background-color: #000;
+  color: #fff;
+}
+
+.platforms-container {
+  display: flex;
+  align-items: center;
+}
+
+.platforms-heading {
+  font-size: 50px;
+}
+
+.platforms-paragraph {
+  font-size: 20px;
+}
+
+.downloads {
+  height: 400px;
+  background-color: #000;
+  color: #fff;
+}
+
+.downloads-container {
+  display: flex;
+  align-items: center;
+}
+
+.downloads-heading {
+  font-size: 50px;
+  margin-top: 45px;
+}
+
+.downloads-paragraph {
+  font-size: 20px;
+}
+
+.watch {
+  height: 400px;
+  background-color: #000;
+  color: #fff;
+}
+
+.watch-container {
+  display: flex;
+  align-items: center;
+}
+
+.watch-heading {
+  font-size: 45px;
+}
+
+.watch-paragraph {
+  font-size: 20px;
+}
+
+.children {
+  height: 400px;
+  background-color: #000;
+  color: #fff;
+}
+
+.children-container {
+  display: flex;
+  align-items: center;
+}
+
+.children-heading {
+  font-size: 45px;
+}
+
+.children-paragraph {
+  font-size: 20px;
+}
+
+.faq {
+  height: 750px;
+  color: #fff;
+  background-color: #000;
+}
+
+.faq .container {
+  max-width: 700px;
+}
+
+.accordian {
+  background-color: #303030;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  margin: 0.5rem 0;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-size: larger;
+}
+
+.active,
+.accordian:hover {
+  background-color: #303030;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #303030;
+  padding: 20px;
+  overflow: hidden;
+  text-align: left;
+  display: none;
+  font-size: larger;
+}
+
+.faq h5 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  line-height: 40px;
+}
+
+.footer .container {
+  padding: 3rem 0;
+}
+
+.footer-link {
+  color: #737373;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
